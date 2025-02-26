@@ -40,6 +40,7 @@ class App extends React.Component {
     weather: {},
   };
 
+  // Using arrow function to use the "this" keyword
   fetchWeather = async () => {
     if (this.state.location.length < 2) return this.setState({ weather: {} });
 
@@ -180,3 +181,5 @@ class Day extends React.Component {
     );
   }
 }
+
+
