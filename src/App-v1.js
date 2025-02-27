@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function getWeatherIcon(wmoCode) {
   const icons = new Map([
     [[0], "☀️"],
